@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(14, 8, 8);
+    font-family: -webkit-pictograph;
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: 24px;
+    color: wheat;
+}
+
+nav {
+    height: 55px;
+    background-color: #17a86c;
+    margin-top: -16px;
+}
+
+.container-ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.navLink {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: wheat;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-item {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #1A1A1A;
+    border-radius: 9px;
+}
+
+.container-item-height {
+    height: 275px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.view-profile {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.items-name {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.user-name {
+    color: wheat;
+}
+
+/*Profile Details*/
+
+.container-image-item {
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+}
+
+
+.justifyContent {
+    justify-content: start;
+    margin: 70px;
+}
+
+.borderRadius {
+    border-radius: 7px;
+}
+
+.flex-item {
+    margin-left: 80px;
+}
+
+.link-profile {
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 4px 14px 4px 14px;
+
+}
+
+
+.profile-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.danger {
+    color: red;
+    border: 1px solid red;
+}
+
+.warning {
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.user-name {
+    margin-left: 10px;
+    font-size: 20px;
+    color: wheat;
+}
+
+.mt-4 {
+    margin-top: 12px;
+}
+
+.mx-4 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
